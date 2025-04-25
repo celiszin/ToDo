@@ -1,0 +1,43 @@
+<div class="container">
+    <h1 class="text-center display-4 mt-5">
+        Etec - Lista de Tarefas
+    </h1>
+    <hr>
+    <form class="col-md-6 mx-auto" (ngSubmit)="onSubmit(taskForm)" #taskForm="ngForm">
+        <div class="mb-4">
+            <label for="task" class="form-label">Tarefa (De Filho Da Puta)</label>
+            <input type="text" class="form-control" id="task" name="task" ngModel name="task" required placeholder="Digite a tarefa a ser realizada, Seu Corno">
+            <div id="taskHelp" class="form-text">Campo Obrigatorio(Seu Email Nunca Será Vazado, Confia)</div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Senha (Para Ser Molestado)</label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="confirmRequired">
+            <small class="form-check-label" for="confirmRequired">Campo Obrigatório</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+    </form>
+    <hr>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Tarefas</th>
+                <th scope="col">Status</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td class="w-75">Nome da Tarefa</td>
+                <td><input type="checkbox"> Finalizado </td>
+                <td><button class="btn btn-sm btn-danger">Excluir</button></td>
+            </tr>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,12 @@
+git config --global --replace-all user.name celiszin
+git config --global user.email teste153ovo@gmail.com
+
+Instalação pra iniciar:
+npm install -g @angular/cli
+
+Criar projeto:
+ng new todo
+ng serve -o(Rodar projeto)
+
+Criar componente:
+ng g c todo-list
