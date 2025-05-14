@@ -9,4 +9,4 @@ ng new todo
 ng serve -o(Rodar projeto)
 
 Criar componente:
-ng g c todo-list
+ng g c todo-list 
